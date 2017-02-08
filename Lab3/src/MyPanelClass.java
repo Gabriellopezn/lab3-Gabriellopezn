@@ -39,6 +39,7 @@ public class MyPanelClass extends JPanel {
                         //Draws circle
                         g.setColor(Color.GREEN);
                         g.fillOval((getWidth()-55)/2, (getHeight()-55)/2, 55, 55);  
+                      */
                         //Draws arrow
                         Polygon p = new Polygon();
                         p.addPoint(x1 + 5, y1 + 25);
@@ -50,7 +51,7 @@ public class MyPanelClass extends JPanel {
                         p.addPoint(x1 + 15, y1 + 25);
                         g.setColor(Color.YELLOW);
                         g.fillPolygon(p);
-                      */  
+                       
                         Polygon p2 = new Polygon();
                         p2.addPoint(x1 + 25, y1 + 73);
                         p2.addPoint(x1 + 41, y1 + 73);
